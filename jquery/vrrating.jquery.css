@@ -1,0 +1,60 @@
+/*********************/
+/** jRating CSS **/
+/*********************/
+
+/**Div containing responses */
+.serverResponse{font-style:italic;font-size:10px}
+.datasSent p, .serverResponse p {font-style:italic;font-size:10px}
+.exemple{margin-top:15px;}
+.clr{clear:both}
+pre {margin:0;padding:0}
+.notice {background-color:#F4F4F4;color:#666;border:1px solid #CECECE;padding:10px;font-weight:bold;width:600px;font-size:12px;margin-top:10px}
+		
+		
+/**Div containing the color of the stars */
+
+.box {padding:10px;-moz-border-radius:10px;-webkit-border-radius:10px;border-radius:10px;margin:15px;border:1px solid #CCC;background:white;}
+
+.blur {padding:10px;-webkit-box-shadow:0 0 1em hsla(0, 0%, 0%, 1.0);-moz-box-shadow:0 0 1em hsla(0, 0%, 0%, 1.0);margin:15px;box-shadow:0 0 1em hsla(0, 0%, 0%, 1.0);}
+.jRatingAverage {
+background-color:#f4c239;
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:2;
+	width:100%;
+}
+.jRatingColor {
+	border:solid 1px blue;
+	background-color:#F62929; /* bgcolor of the stars*/
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:2;
+	width:100%;
+}
+
+/** Div containing the stars **/
+.jStar {
+	position:relative;
+	left:0;
+	z-index:3;
+}
+
+/** P containing the rate informations **/
+p.jRatingInfos {
+	position:		absolute;
+	z-index:9999;
+	background:	transparent url('icons/bg_jRatingInfos.png') no-repeat;
+	color:			#FFF;
+	display:		none;
+	width:			91px;
+	height:			29px;	
+	font-size:16px;
+	text-align:center;
+	padding-top:5px;
+}
+	p.jRatingInfos span.maxRate {
+		color:#c9c9c9;
+		font-size:14px;
+	}
